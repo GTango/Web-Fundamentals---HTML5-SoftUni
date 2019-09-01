@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+body, ul{
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+header{
+
+	background-image: url("images/Layer-759_02.jpg");
+	background-repeat: repeat;
+	background-size: cover;
+	text-align: center;
+
+
+}
+
+nav{
+	background: rgba(186, 146, 94, 0.9);
+ 	width: 60%;
+ 	margin: 0 auto;
+ 	position: relative;
+ 	top: 20px;
+
+}
+
+
+nav ul li{
+	display: inline-block;
+	padding: 18px 5px;
+
+}
+
+nav ul li a{
+
+	color: white;
+	text-decoration: none;
+	padding:  10px 10px;
+	font-size: 20px;
+}
+
+
+header h1{
+
+	text-align: center;
+	color: white;
+	font-size: 50px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 160px;
+	text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+header p{
+
+	text-align: ceter;
+	color: white;
+	font-size: 20px;
+	width: 25%;
+	margin: 0 auto;
+	text-shadow: 2px 2px 4px rgb(0, 0, 0);
+
+}
+
+
+button{
+	background:  #080820;
+	color: white;
+	border: none;
+	margin: 20px auto;
+	padding: 10px;
+	border-radius: 10px;
+	text-transform: uppercase;
+	margin-bottom: 200px;
+	text-align: ceter;
+}
+header button:hover,
+header button:hover i{
+	cursor: pointer;
+	color: black;
+	background: #BA925E;
+}
+
+
+
+button i {
+
+color: rgb(186, 146, 94);
+
+}
+
+#industries h2{
+	text-align: center;
+	font-weight: bold;
+	font-size: 35px;
+}
+
+#industries{
+
+	padding: 30px;
+	text-align: center;
+
+}
+
+#first-row article, #second-row article{
+	display: inline-block;
+	width: 30%;
+	text-align: left;
+	margin: 20px;
+}
+
+#industries i{ 
+	margin-left: -46px;
+	padding: 11px;
+	background: #080820;
+	color: white;
+	border-radius: 50%;
+}
+
+#middle-section{
+	background: url('images/steel-bg.jpg');
+	background-size: cover;
+	
+}
+
+#middle-section p{
+
+	width: 35%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 20px;
+	color: black;
+	padding: 25px 0;
+	font-weight: bold;
+
+
+}
+
+#middle-section p:first-line{
+
+	color: #BA925E;
+}
+
+
+#choose-us{
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+	url('images/background-choose-us.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	text-align: center;
+}
+
+#choose-us h1{
+
+	margin-top: 0;
+	font-weight: bold;
+	padding-top: 30px;
+	margin-bottom: 20px;
+	font-size: 40px;
+
+}
+
+#choose-us article{
+  display: inline-block;
+  width: 30%;
+  margin: 20px;
+  margin-bottom: 80px;
+  border: 2px solid #BA925E;
+  padding: 18px;
+  vertical-align: top;
+  box-sizing: border-box;
+
+}
+
+#choose-us article p{
+
+	text-align: left;
+}
+
+#amanda{
+	background-image: url('images/consulting-woman.jpg');
+	height: 500px;
+	padding: 25px;
+	text-align: right;
+	background-repeat: no-repeat;
+}
+
+#amanda > article{
+	width: 40%;
+	background: rgba(237, 236, 233, 0.8);
+	padding:  20px;
+	position: relative;
+	left: 735px;
+	top: 40px;
+	margin-bottom: 40px;
+
+}
+
+#nested-article{
+	height: 200px;
+	background: #080820;
+	padding: 15px;
+}
+
+#nested-article p{
+	text-align: left;
+}
+
+
+#nested-article span{
+	color: #70707C;
+	font-size: 12px;
+	
+}
+
+#nested-article h2{
+	color: white;
+	text-align: left;
+}
+
+#partners {
+  vertical-align: top;
+  margin: 0 auto;
+  text-align: center;
+	
+}
+#partners img{
+	display: inline-block;
+ 	vertical-align: top;
+ 	width: 150px;
+ 	height: 96px;
+}
+
+footer{
+
+	background: #080820;
+	color: white;
+}
+
+footer article{
+	display: inline-block;
+	width: 30%;
+	margin:  20px;
+	vertical-align: top;
+}
+footer:nth-child(2){
+	width: 15px;
+}
+
+
+footer span i {
+	background: #83838F;
+	color: #080820;
+	border-radius: 50%;
+	margin:  8px;
+	padding: 15px;
+	margin-left: 30px;
+}
+
+footer div {
+ 	width: 30%;
+ 	display: inline-block;
+ 	
+
+}
+
+footer div a {
+	color: #BA925E;
+	text-decoration: none;
+	margin: 10px;
+
+}
+
+footer article img{
+	width: 120px;
+	height: 120px;
+}
