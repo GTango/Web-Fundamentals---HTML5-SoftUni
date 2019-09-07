@@ -26,4 +26,11 @@ CSS-Formatting-and-CSS-Positioning
 
 Creating-Landing-Pages
 
-1.Consulting Agency
+1. Consulting Agency
+
+
+HTML-Forms-and-Styling
+1. Login Form-Images
+2. Login Form-font-awesome
+3. Contact Form
+4. Arranging The Widths
