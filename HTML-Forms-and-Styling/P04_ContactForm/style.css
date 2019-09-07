@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+body{
+
+    font-family: "Georgia", "Times New Roman", serif;
+    color: #888;
+}
+
+h1{
+    margin-bottom: -14px;
+    margin-left: 35px;
+}
+
+p{
+    font-weight: bold;
+    margin-left: 35px;
+
+}
+
+form{
+
+    width: 40%;
+    background: #F7F7F7;
+    margin: 0 auto;
+    border: gray 2px solid;
+    padding:35px;
+    
+}
+
+form label{
+    display: block;
+    padding: 10px;
+}
+
+form span{ 
+    padding-right: 10px;
+
+}
+
+form input{
+    width: 75%;
+    padding: 8px;
+    
+}
+
+form textarea{
+    margin-left: 100px;
+}
+
+form select{
+    width: 76%;
+    padding: 8px;
+    margin-left: 24px;
+}
+
+.btn{
+    margin-left: 108px;
+    width: 45%;
+    border: none;
+    background: #E27575;
+    color: white;
+    border-radius: 5px;
+}
