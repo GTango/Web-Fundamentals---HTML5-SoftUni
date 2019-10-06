@@ -1,0 +1,117 @@
+@media only screen and (max-width: 980px) and (min-width: 640px){
+
+    body #wrapper {
+    
+        width: 100%;
+  
+    }
+
+    body #wrapper > header h1 a {
+        align-items: center;
+        flex-flow: column;
+        
+}
+
+
+body #wrapper > header h1 a span{
+
+    padding-top: unset; 
+    padding-right: unset;
+    margin-bottom: 2%;
+
+}
+    body #wrapper > header nav ul {
+       
+        
+        flex-flow: column;
+        align-items: center;
+
+    
+    }
+
+    body #wrapper > header nav ul li {
+
+        width: 90%;
+        margin-top: 25px;
+
+    }
+
+    body #wrapper > section {
+        width: 100%
+
+    }
+
+    body #wrapper > aside{
+
+        width: 100%;
+        flex-flow: unset;
+    }
+
+    body #wrapper > aside div{
+
+        width: 49.5%;
+        padding-bottom: 70px;
+
+    }
+
+}
+
+@media only screen and (max-width: 640px){
+
+    body #wrapper {
+    
+        width: 100%;
+  
+    }
+
+    body #wrapper > header h1 a {
+        align-items: center;
+        flex-flow: column;
+        
+}
+
+
+body #wrapper > header h1 a span{
+
+    padding-top: unset; 
+    padding-right: unset;
+    margin-bottom: 2%;
+
+}
+    body #wrapper > header nav ul {
+       
+        
+        flex-flow: column;
+        align-items: center;
+
+    
+    }
+
+    body #wrapper > header nav ul li {
+
+        width: 90%;
+        margin-top: 25px;
+
+    }
+
+    body #wrapper > section {
+        width: 100%
+
+    }
+
+    body #wrapper > aside{
+
+        width: 100%;
+        flex-flow: column;
+    }
+
+    body #wrapper > aside div{
+
+        width: 100%;
+        padding-bottom: 70px;
+
+    }
+
+
+
+}
